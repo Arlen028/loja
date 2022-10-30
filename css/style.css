@@ -1,0 +1,142 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  font-family: "Inter";
+  font-weight: 400; /* Largura da fonte */
+}
+
+.container {
+  width: 1200px; /* Largura */
+  margin: 0px auto; /* 0px para cima e automatico nas laterais */
+}
+
+.flex {
+  display: flex;
+  flex-direction: row; /* Direção dos box na horizontal */
+}
+
+header {
+  padding: 30px 0px;
+}
+
+header .flex {
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #202020;
+  padding: 20px 0px;
+}
+
+nav .flex {
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.main {
+  padding: 128px;
+  justify-content: space-between;
+}
+
+.tenisg {
+  border: solid 1px #000;
+  width: 500px;
+  height: 500px;
+}
+.tenisp {
+  display: flex;
+
+  flex-direction: row;
+}
+.imglitte {
+  border: solid 1px #000;
+  width: 167px;
+  height: 167px;
+}
+.texts {
+  display: inline-block;
+  padding: 10px;
+}
+h1 {
+  font-size: 32px;
+  line-height: 52px;
+}
+h2 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 52px;
+}
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 52px;
+}
+.texts p {
+  font-size: 18px;
+  line-height: 52px;
+}
+span {
+  color: #f45c04;
+  font-weight: bold;
+}
+
+section > .texts > button a {
+  background-color: #f45c04;
+  color: white;
+  padding: 18px 56px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+main {
+  background-color: #f4f2fc;
+  width: 740px;
+  margin: 119px;
+}
+.container_item {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+.container_item .left {
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(9, 7, 7);
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  min-height: 60vh;
+
+  width: 100%;
+}
+footer ul {
+  margin: 20px;
+  width: 20%;
+}
+footer ul li {
+  margin: 20px;
+  color: #fff;
+}
+
+footer > * {
+  flex: 1 1 15%;
+}
+.container_item > h3 {
+  font-size: 24px;
+}
+.container_item > h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.container_item > p {
+  font-size: 22px;
+}
